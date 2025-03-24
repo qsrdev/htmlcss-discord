@@ -6,39 +6,80 @@
   font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* HEADER */
 .header {
   min-height: 80px;
-  padding-top: 20px;
+  padding-top: 10px;
   /* debug */
-  background-color: rgba(173, 216, 230, 255);
+  background-color: rgba(37, 94, 233, 255);
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  background-color: rgba(218, 165, 32, 255);
+  /* background-color: rgba(218, 165, 32, 255); */
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  /* font-size: 20px; */
+  font-weight: normal;
+  padding: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.white-button {
+  display: inline-block;
+  color: black;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 0px 15px;
 }
 
 /* COMMON */
 /* Layout */
 
+.bg-white {
+  background-color: white;
+}
+
 .container {
-  width: 70%;
-  max-width: 1100px;
-  margin: auto;
+  width: 75%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .col-25 {
   width: 25%;
   padding: 5px;
+  text-align: center;
   /* debug */
   border: 3px dashed black;
 }
 
 .col-50 {
-  text-align: center;
   width: 50%;
   padding: 5px;
   /* debug */
@@ -55,7 +96,9 @@
 
 /* Section Blu */
 .sectionblu {
-  background-color: rgb(0, 0, 163);
+  /* background-color: rgb(0, 0, 163); */
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
   display: flex;
   height: 400px;
   justify-content: center;
