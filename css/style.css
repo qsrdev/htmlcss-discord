@@ -1,0 +1,162 @@
+/* RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  min-height: 80px;
+  padding-top: 20px;
+  /* debug */
+  background-color: rgba(173, 216, 230, 255);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: rgba(218, 165, 32, 255);
+}
+
+/* COMMON */
+/* Layout */
+
+.container {
+  width: 70%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.col-25 {
+  width: 25%;
+  padding: 5px;
+  /* debug */
+  border: 3px dashed black;
+}
+
+.col-50 {
+  text-align: center;
+  width: 50%;
+  padding: 5px;
+  /* debug */
+  border: 3px dashed black;
+}
+
+.main-container {
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+/* Section Blu */
+.sectionblu {
+  background-color: rgb(0, 0, 163);
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.monopinkbox {
+  background-color: rgb(255, 135, 253);
+  border: 3px dashed rgb(0, 0, 0);
+  height: 300px;
+  width: 700px;
+}
+
+/* Section White */
+.sectionwhite {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.colblue {
+  width: 60%;
+  height: 500px;
+  border: 3px dashed black;
+  background-color: rgba(30, 144, 255, 255);
+}
+
+.colpink {
+  width: 40%;
+  height: 500px;
+  border: 3px dashed black;
+  background-color: pink;
+}
+
+/* Section Green */
+.sectiongreen {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+.monogreenbox {
+  background-color: rgba(34, 139, 34, 255);
+  border: 3px dashed rgb(0, 0, 0);
+  height: 900px;
+  width: 100%;
+}
+
+/* Section Black */
+.sectionblack {
+  display: flex;
+  background-color: rgba(35, 39, 42, 255);
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid gray;
+}
+
+.colred {
+  background-color: rgba(240, 128, 128, 255);
+  width: 30%;
+  height: 500px;
+  border: 3px dashed black;
+}
+
+.colteal {
+  display: flex;
+  background-color: rgba(32, 178, 170, 255);
+  width: 70%;
+  height: 500px;
+  border: 3px dashed black;
+}
+
+.tealdivision {
+  background-color: rgba(32, 178, 170, 255);
+  width: 25%;
+  height: 500px;
+  border: 3px dashed white;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(127, 255, 212, 255);
+  width: 100%;
+  height: 80px;
+}
+
+.footer-container {
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.endtag {
+  background-color: salmon;
+  border: 3px dashed black;
+  padding: 5px;
+  font-size: larger;
+}
