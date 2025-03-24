@@ -14,7 +14,6 @@ img {
 .header {
   min-height: 80px;
   padding-top: 10px;
-  /* debug */
   background-color: #255ee9;
 }
 
@@ -23,7 +22,6 @@ img {
   justify-content: center;
   align-items: center;
   margin: auto;
-  /* background-color: rgba(218, 165, 32, 255); */
 }
 
 .nav {
@@ -35,7 +33,6 @@ img {
 
 .nav li {
   display: inline-block;
-  /* font-size: 20px; */
   font-weight: normal;
   padding: 15px;
 }
@@ -61,18 +58,6 @@ img {
 /* COMMON */
 /* Layout */
 
-.bg-white {
-  background-color: white;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.bg-purple {
-  background-color: #7289da;
-}
-
 .container {
   width: 75%;
   max-width: 1300px;
@@ -83,15 +68,10 @@ img {
   width: 25%;
   padding: 5px;
   text-align: center;
-  /* debug */
-  /* border: 3px dashed black; */
 }
 
 .col-50 {
   width: 50%;
-  /* padding: 5px; */
-  /* debug */
-  /* border: 3px dashed black; */
 }
 
 .main-container {
@@ -131,16 +111,10 @@ p {
 }
 
 .monopinkbox {
-  /* background-color: rgb(255, 135, 253); */
-  /* border: 3px dashed rgb(0, 0, 0); */
   height: 300px;
   width: 700px;
   text-align: center;
   padding-top: 70px;
-}
-
-.font-white {
-  color: white;
 }
 
 /* Section White */
@@ -155,8 +129,6 @@ p {
   display: flex;
   width: 70%;
   height: 500px;
-  /* border: 3px dashed black; */
-  /* background-color: rgba(30, 144, 255, 255); */
   justify-content: center;
   align-items: center;
 }
@@ -165,8 +137,6 @@ p {
   display: flex;
   width: 30%;
   height: 500px;
-  /* border: 3px dashed black; */
-  /* background-color: pink; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -185,8 +155,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: rgba(34, 139, 34, 255);
-  border: 3px dashed rgb(0, 0, 0); */
   height: 900px;
   width: 100%;
   text-align: center;
@@ -214,7 +182,7 @@ p {
   /* background-color: rgba(240, 128, 128, 255); */
   width: 25%;
   height: 500px;
-  border: 3px dashed black;
+  /* border: 3px dashed black; */
 }
 
 .colred h2 {
@@ -226,7 +194,7 @@ p {
   background-color: rgba(32, 178, 170, 255);
   width: 75%;
   height: 500px;
-  border: 3px dashed black;
+  /* border: 3px dashed black; */
 }
 
 .tealdivision {
@@ -234,6 +202,17 @@ p {
   width: 25%;
   height: 500px;
   border: 3px dashed white;
+}
+
+.social {
+  display: inline-block;
+  list-style: none;
+  padding: 0 8px;
+  font-size: 20px;
+}
+
+.colred ul {
+  margin-top: 10px;
 }
 
 /* Footer */
@@ -251,4 +230,26 @@ p {
   border: 3px dashed black;
   padding: 5px;
   font-size: larger;
+}
+
+/* UTILY TAGS   */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-purple {
+  background-color: #7289da;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-purple {
+  color: #7289da;
 }
